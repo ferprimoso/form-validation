@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <form id="form" action="/">
+
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <span class="icon-sucess">&#9989</span>
+                <span class="icon-error">&#9940</span>
+                <div class="error"></div>
+            </div>
+          
+            <div class="form-control">
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country">
+                <span class="icon-sucess">&#9989</span>
+                <span class="icon-error">&#9940</span>
+                <div class="error"></div>
+            </div>
+
+            <div class="form-control">
+                <label for="zipcode">ZipCode:</label>
+                <input type="text" name="zipcode" id="zipcode">
+                <span class="icon-sucess">&#9989</span>
+                <span class="icon-error">&#9940</span>
+                <div class="error"></div>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+                <span class="icon-sucess">&#9989</span>
+                <span class="icon-error">&#9940</span>
+                <div class="error"></div>
+            </div>
+
+            <div class="form-control">
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="password" name="confirmpassword" id="confirmpassword">
+                <span class="icon-sucess">&#9989</span>
+                <span class="icon-error">&#9940</span>
+                <div class="error"></div>
+            </div>
+
+            <button type="submit" id="submit">Submit!</button>
+        </form>
+    </div>
+</body>
+</html>
